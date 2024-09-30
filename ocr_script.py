@@ -1,6 +1,11 @@
 from PIL import Image
 import pytesseract
 
+"""
+tesseract.exe安裝包網址
+https://github.com/UB-Mannheim/tesseract/wiki
+"""
+
 def replace_l_with_1(input_string):
     # 使用 replace() 方法將 'l' 替換為 '1'
     return input_string.replace('l', '1')
